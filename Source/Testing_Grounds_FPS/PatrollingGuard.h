@@ -15,10 +15,8 @@ class TESTING_GROUNDS_FPS_API APatrollingGuard : public ATP_ThirdPersonCharacter
 	GENERATED_BODY()
 
 public:
-	TArray<AActor*> GetPatrolPoints() { return PatrolPoints; }
 
-protected:
-	UPROPERTY(EditInstanceOnly, Category = "Patrol Route CPP")
-	TArray<AActor*> PatrolPoints;
+
+
 	
 };
